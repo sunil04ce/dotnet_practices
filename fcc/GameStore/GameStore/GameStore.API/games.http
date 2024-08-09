@@ -13,3 +13,17 @@ Content-Type: application/json
     "price": 19.99,
     "releaseDate": "2011-11-08"
 }
+
+###
+PUT http://localhost:5284/games/1
+Content-Type: application/json
+
+{
+    "name": "Street Fighter III",
+    "genre": "Fighting",
+    "price": 20.99,
+    "releaseDate": "1995-07-15"
+}
+
+###
+DELETE http://localhost:5284/games/2
