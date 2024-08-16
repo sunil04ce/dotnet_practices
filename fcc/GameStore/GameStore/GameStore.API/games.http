@@ -8,10 +8,10 @@ POST  http://localhost:5284/games
 Content-Type: application/json 
 
 {
-    "name": "MineCraft",
-    "genre": "Kids and Family",
-    "price": 19.99,
-    "releaseDate": "2011-11-08"
+    "name": "Street Fighter I",
+    "genreId": 1,
+    "price": 9.99,
+    "releaseDate": "1991-11-08"
 }
 
 ###
