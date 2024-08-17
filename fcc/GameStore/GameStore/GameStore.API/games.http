@@ -1,28 +1,28 @@
 GET http://localhost:5284/games
 
 ###
-GET http://localhost:5284/games/4
+GET http://localhost:5284/games/3
 
 ###
 POST  http://localhost:5284/games
 Content-Type: application/json 
 
 {
-    "name": "Street Fighter I",
-    "genreId": 1,
-    "price": 9.99,
-    "releaseDate": "1991-11-08"
+    "name": "Final Fantasy XIV",
+    "genreId": 2,
+    "price": 59.99,
+    "releaseDate": "2010-09-30"
 }
 
 ###
-PUT http://localhost:5284/games/1
+PUT http://localhost:5284/games/3
 Content-Type: application/json
 
 {
-    "name": "Street Fighter III",
-    "genre": "Fighting",
-    "price": 20.99,
-    "releaseDate": "1995-07-15"
+    "name": "Street Fighter II Turbo",
+    "genreId": 1,
+    "price": 19.99,
+    "releaseDate": "1992-02-01"
 }
 
 ###
