@@ -1,0 +1,9 @@
+﻿@if (TempData["success"] != null)
+{
+    <div class="text-danger">@TempData["success"]</div>
+}
+
+@if (TempData["error"] != null)
+{
+    <div class="text-danger">@TempData["error"]</div>
+}
