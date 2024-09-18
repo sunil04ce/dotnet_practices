@@ -18,7 +18,8 @@
                 </a>
             </div>
         </div>
-        <table class="table table-bordered table-striped">
+        @* <table id="tblData" class="table table-bordered table-striped" style="width:100%"> *@
+        <table class="table table-bordered table-striped" style="width:100%">
             <thead>
                 <tr>
                     <th>Title</th>
@@ -61,8 +62,12 @@
                         </td>
                     </tr>
                 }
-
+            
             </tbody>
         </table>
     </div>
 </div>
+
+@section Scripts {
+    <script src="~/js/product.js"></script>
+}
